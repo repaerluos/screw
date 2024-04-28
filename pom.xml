@@ -407,7 +407,7 @@
                     </mapping>
                 </configuration>
             </plugin>
-            <!--formatter-->
+            <!--formatter
             <plugin>
                 <groupId>net.revelc.code.formatter</groupId>
                 <artifactId>formatter-maven-plugin</artifactId>
@@ -428,7 +428,7 @@
                         <exclude>/resources/template/**</exclude>
                     </excludes>
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
         <testResources>
             <testResource>

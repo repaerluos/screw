@@ -56,7 +56,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <scope>provided</scope>
+            <!-- <scope>provided</scope> -->
         </dependency>
         <!--sqlserver-->
         <dependency>
@@ -70,12 +70,12 @@
             <artifactId>mariadb-java-client</artifactId>
             <scope>provided</scope>
         </dependency>
-        <!-- ojdbc8 -->
+        <!-- ojdbc8 
         <dependency>
             <groupId>com.oracle.ojdbc</groupId>
             <artifactId>ojdbc8</artifactId>
             <scope>provided</scope>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>cn.easyproject</groupId>
             <artifactId>orai18n</artifactId>
